@@ -1,0 +1,20 @@
+# Ambientes virtuais
+.venv/
+venv/
+
+# Ficheiros temporários de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Ficheiros locais / secretos
+.env
+.DS_Store
+
+# Artefactos de build / deploy
+lambda_deploy.zip
+lambda_package/
+
+# Outros (se quiseres ignorar)
+# data/
+# *.log
